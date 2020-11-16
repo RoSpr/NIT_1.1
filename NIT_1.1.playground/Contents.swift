@@ -64,9 +64,8 @@ protocol EqualOppositeSides {
     var perimeter: Double { get }
 }
 
-extension Rectangle {
+extension EqualOppositeSides {
     var perimeter: Double {
         return 2 * (self.height + self.width)
     }
 }
-
